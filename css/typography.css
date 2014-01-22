@@ -67,8 +67,7 @@ small, .milli {
   line-height: 1.8984;
 }
 
-h1, h2, h3, h4, h5, h6,
-brand {
+h1, h2, h3, h4, h5, h6 {
     color: #3E618C;
 }
 
@@ -77,8 +76,14 @@ strong {
 	color: #313131;
 }
 
+thead{
+	background-color: #FF9A00;
+}
+
 th, td{
     color: #A91C35;
+    padding: 0.25rem 1rem;
+	text-align: left;
 }
     
 tr:nth-child(even){
@@ -111,7 +116,7 @@ a:active {
 }
 
 mark{
-    background-color:#FF9A00;
+    background-color:rgba(255,154,0, 0.3);
 }
 
 ul {
