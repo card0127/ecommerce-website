@@ -72,6 +72,19 @@ brand {
     color: #3E618C;
 }
 
+strong {
+	font-weight: bold;
+	color: #313131;
+}
+
+th, td{
+    color: #A91C35;
+}
+    
+tr:nth-child(even){
+	background-color: #D3EDEA;
+}
+
 ::selection {
     background-color: #FF9A00;
     color: #fff;
