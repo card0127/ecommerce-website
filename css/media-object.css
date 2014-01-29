@@ -9,6 +9,7 @@
 
 .media-body {
 	overflow: hidden;
+	margin-top:1rem;
 }
 
 .media-img-reversed {
