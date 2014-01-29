@@ -1,5 +1,6 @@
 .list-group{
 	list-style-type:none;
+	margin-left:-5%;
 }
 
 .list-group-item::before{
