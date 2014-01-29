@@ -1,3 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.media{
+	background-color: #F7F7F7;
+	border-style:solid;
+	border-width:10px;
+	border-color:#fff;
+	box-shadow: 1px 1px 5px #888888;
+	border-radius: 8px ;
+	padding: 1em;
+}

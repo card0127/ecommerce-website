@@ -57,7 +57,7 @@ h6, .kilo {
   line-height: 1.5000;
 }
 
-small, .milli {
+.small, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875;
 }
