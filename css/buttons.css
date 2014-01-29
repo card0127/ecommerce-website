@@ -17,6 +17,7 @@
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 	color: #fff;
 	font-weight: bold;
+	margin-bottom: 0.5em;
 }
 
 .btn-alt,
@@ -24,4 +25,5 @@
 .btn-alt:visited {
 	background-color: #5d8432;
 	background-image: linear-gradient(to bottom, #3E618C, #2D536E);
+	border-radius: 50px;
 }
