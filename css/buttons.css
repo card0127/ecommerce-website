@@ -1,27 +1,27 @@
 /*
-  Colour Palette
-    - Dark grey: #313131 - rgb(49,49,49)
-    - Blue: #3E618C - rgb(62,97,140)
-    - Orange: #FF9A00 - rgb(255,154,0)
-    - Red: #A91C35 - rgb(169,28,53)
+	Colour Palette
+	- Dark grey: #313131 - rgb(49,49,49)
+	- Blue: #3E618C - rgb(62,97,140)
+	- Orange: #FF9A00 - rgb(255,154,0)
+	- Red: #A91C35 - rgb(169,28,53)
  */
  
- .btn,
+.btn,
 .btn:link,
 .btn:visited{
-    display:inline-block;
-    padding: 0.75em 1em;
-    background-color: #9CC;
-    background-image: linear-gradient(to bottom, #FF9A00, #D67D0E);
-    border-radius: 6px;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-    color: #fff;
-    font-weight: bold;
+	display:inline-block;
+	padding: 0.75em 1em;
+	background-color: #9CC;
+	background-image: linear-gradient(to bottom, #FF9A00, #D67D0E);
+	border-radius: 6px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+	color: #fff;
+	font-weight: bold;
 }
 
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited {
-    background-color: #5d8432;
-    background-image: linear-gradient(to bottom, #3E618C, #2D536E);
+	background-color: #5d8432;
+	background-image: linear-gradient(to bottom, #3E618C, #2D536E);
 }

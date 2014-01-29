@@ -1,16 +1,16 @@
 .list-group{
-    list-style-type:none;
+	list-style-type:none;
 }
 
 .list-group-item::before{
-    content:"";
+	content:"";
 }
 
 .list-group-item {
-    display:block;
+	display:block;
 }
 
 .list-group-item-inline {
-    display: inline-block;
+	display: inline-block;
 }
 
