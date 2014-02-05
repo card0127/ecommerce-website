@@ -25,6 +25,10 @@ footer p{
 	color:#3E618C;
 }
 
+.list-group{
+	padding-left: 5%;
+}
+
 .ir {
 	overflow: hidden;
 
