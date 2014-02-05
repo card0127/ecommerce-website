@@ -148,3 +148,38 @@ hr{
 	background-image:-ms-linear-gradient(left, rgba(0,0,0,0), rgba(49,49,49,0.75), rgba(0,0,0,0)); 
 	background-image:-o-linear-gradient(left, rgba(0,0,0,0), rgba(49,49,49,0.75), rgba(0,0,0,0));
 }
+
+blockquote {
+  padding-left: 1.5rem;
+
+  border-left: 4px solid #c7c0ae;
+}
+
+blockquote footer {
+  margin-top: -1.5rem;
+
+  text-align: right;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+caption {
+  font-style: italic;
+}
+
+th {
+  background-color: #eae8e1;
+
+  text-align: left;
+}
+
+th, td {
+  padding: 0.25rem;
+
+  border: 1px solid #c7c0ae;
+}
