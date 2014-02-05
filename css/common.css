@@ -21,6 +21,10 @@ html {
 	font: normal 100%/2 Patua One,sans-serif;
 }
 
+footer p{
+	color:#3E618C;
+}
+
 .ir {
 	overflow: hidden;
 
