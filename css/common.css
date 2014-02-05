@@ -17,6 +17,10 @@ html {
 	text-size-adjust: 100%;
 }
 
+.grid{
+	font: normal 100%/2 Patua One,sans-serif;
+}
+
 .ir {
 	overflow: hidden;
 
@@ -27,4 +31,12 @@ html {
 .img-flex {
 	display: block;
 	width: 100%;
+}
+
+ul li{
+	display:block;
+}
+
+ul li{
+	list-style:none;
 }
