@@ -159,15 +159,15 @@ a:link {
 }
 
 a:visited {
-  color: #fff;
+  color: #313131;
   border-bottom-color: rgba(104,68,110,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #b42885;
-  border-bottom-color: #b42885;
+  color: #A91C35;
+  border-bottom-color: #A91C35;
 }
 
 sup,
