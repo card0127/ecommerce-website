@@ -7,7 +7,7 @@
  */
 
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 'Source Sans Pro', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -138,11 +138,11 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand {
   color: #5d8432;
-  font-family: "Patua One",serif;
+  font-family: 'Source Sans Pro',sans-serif;
 }
 
 .brand-family {
-  font-family: "Patua One",serif;
+  font-family: 'Source Sans Pro',sans-serif;
 }
 
 .brand-color {
