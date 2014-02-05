@@ -137,7 +137,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #5d8432;
+  color: #3E618C;
   font-family: 'Source Sans Pro',sans-serif;
 }
 
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color {
-  color: #5d8432;
+  color: #3E618C;
 }
 
 a,
@@ -154,7 +154,7 @@ a:link {
   border-bottom: 0.1em solid rgba(121,50,132,0.5);
   transition: all 150ms linear;
 
-  color: #793284;
+  color: #FF9A00;
   text-decoration: none;
 }
 
@@ -202,7 +202,7 @@ del {
 }
 
 mark {
-  background-color: #e3f595;
+  background-color: #FF9A00;
 }
 
 hr {
