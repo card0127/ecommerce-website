@@ -21,6 +21,12 @@ html {
 	font: normal 100%/2 Patua One,sans-serif;
 }
 
+.grid img{
+	border: 10px solid #fff;
+	box-shadow: 0 1px 5px #888888;
+	margin:5px;
+}
+
 footer p{
 	color:#3E618C;
 }
