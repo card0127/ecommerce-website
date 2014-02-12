@@ -30,43 +30,77 @@ html {
 	background-color: #F5F5F1;
 }
 
+/*Navigation*/
+a {
+	display:block;
+	padding: 0.25rem;
+	margin-top: 2rem;
+}
+
+li {
+	display: inline;
+}
+
+li {
+	float:left;
+}
+
+a{
+	display:block;
+}
+
 .grid{
 	font: normal 100%/2 'Lato',sans-serif;
 	background-color: #fff;
 }
 
 .logo{
-	width: 75%;
+	width: 100%;
+	padding-top: 1rem;
 }
 
 /*Form Styling*/
-#search {
-
+form{
+	width:500px;
+	margin:0 auto;
+}
+.search { 
+	padding:6px 15px 6px 30px;
+	margin:3px; 
+	background: url('./images/search.png') no-repeat 8px 6px; 
 }
 
-#search input[type="text"] {
-    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
-    border: 1px solid #d1d1d1;
-    font: bold 12px Arial,Helvetica,Sans-serif;
-    color: #bebebe;
-    width: 150px;
-    padding: 6px 15px 6px 35px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
-    }
-
-#search input[type="text"]:focus {
-    width: 160px;
+input[type=text]{
+	color:#bcbcbc;
 }
+
+input[type=button], input[type=button]:hover {
+	position:relative; 
+	left:-6px;
+	border:1px solid #adc5cf;
+	background: #e4f1f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* IE10+ */
+	background: linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
+	color:#7da2aa;
+	cursor: pointer;
+}
+
+.lighter {
+	width:95%;
+	height:50px;
+	padding:40px 25px;
+}
+
+.lighter input[type=text]{
+	border:1px solid #d0d0d0;
+	background-color:#fcfcfc;
+}
+
 
 .product-info img{
 	border: 10px solid #fff;
