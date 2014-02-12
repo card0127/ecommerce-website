@@ -1,13 +1,13 @@
 /*
 	Colour Palette
-	- Green 1: #507F64 - rgb(80,127,100)
+	- Green 1: #529C73 - rgb(82,156,115)
 	- Green 2: #3C7D4C - rgb(60,125,76)
 	- Blue 1: #537FA7 - rgb(83,127,167)
 	- Blue 2: #006991 - rgb(0,105,145)
 	- Blue 3: #314A67 - rgb(49,74,103)
 	- Blue 4: #003239 - rgb(0,50,57)
  */
-
+ 
 html {
   font: normal 100%/1.5 'Lato', sans-serif;
 }
@@ -161,15 +161,15 @@ a:link {
 }
 
 a:visited {
-  color: #006991;
+  color: #fff;
   border-bottom-color: rgba(0,105,145,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #537FA7;
-  border-bottom-color: #537FA7;
+  color: #E8B254;
+  border-bottom-color: #666;
 }
 
 sup,
@@ -204,7 +204,7 @@ del {
 }
 
 mark {
-  background-color: #537FA7;
+  background-color: #529C73;
 }
 
 hr {
@@ -243,7 +243,7 @@ ul li {
 blockquote {
   padding-left: 1.5rem;
 
-  border-left: 4px solid #507F64;
+  border-left: 4px solid #529C73;
 }
 
 blockquote footer {
