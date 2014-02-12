@@ -1,10 +1,11 @@
 /*
 	Colour Palette
-	- Green 1: #45FFCA - rgb(69,255,202)
-	- Green 2: #45E8B9 - rgb(69,232,185)
-	- Green 3: #537F75 - rgb(83,127,117)
-	- Green 4: #005C7F - rgb(0,92,127)
-	- Blue 1: #58FBFF - rgb(88,251,255)
+	- Green 1: #507F64 - rgb(80,127,100)
+	- Green 2: #3C7D4C - rgb(60,125,76)
+	- Blue 1: #537FA7 - rgb(83,127,167)
+	- Blue 2: #006991 - rgb(0,105,145)
+	- Blue 3: #314A67 - rgb(49,74,103)
+	- Blue 4: #003239 - rgb(0,50,57)
  */
 
 html {
@@ -138,7 +139,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #005C7F;
+  color: #3C7D4C;
   font-family: 'Source Sans Pro',sans-serif;
 }
 
@@ -147,28 +148,28 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color {
-  color: #537F75;
+  color: #314A67;
 }
 
 a,
 a:link {
-  border-bottom: 0.1em solid rgba(83,127,117,0.5);
+  border-bottom: 0.1em solid rgba(0,105,145,0.5);
   transition: all 150ms linear;
 
-  color: #537F75;
+  color: #006991;
   text-decoration: none;
 }
 
 a:visited {
-  color: #4CFF93;
-  border-bottom-color: rgba(69,232,185,0.5);
+  color: #006991;
+  border-bottom-color: rgba(0,105,145,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #45E8B9;
-  border-bottom-color: #45E8B9;
+  color: #537FA7;
+  border-bottom-color: #537FA7;
 }
 
 sup,
@@ -203,12 +204,18 @@ del {
 }
 
 mark {
-  background-color: #FF9A00;
+  background-color: #537FA7;
 }
 
 hr {
-  border: 0;
-  border-bottom: 1px solid #c7c0ae;
+	border: 0;
+	width: 50%;
+	margin-left: 25%;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,50,57,0.25), rgba(0,0,0,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,50,57,0.75,0.25), rgba(0,0,0,0)); 
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,50,57,0.75,0.25), rgba(0,0,0,0)); 
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,50,57,0.75,0.25), rgba(0,0,0,0));
 }
 
 dt {
@@ -236,7 +243,7 @@ ul li {
 blockquote {
   padding-left: 1.5rem;
 
-  border-left: 4px solid #c7c0ae;
+  border-left: 4px solid #507F64;
 }
 
 blockquote footer {
@@ -257,13 +264,14 @@ caption {
 }
 
 th {
-  background-color: #eae8e1;
-
-  text-align: left;
+	padding: 0.25rem;
+	color:#fff;
+	border: 1px solid #006991;
+	background-color: #537FA7;
+	text-align: left;
 }
 
-th, td {
-  padding: 0.25rem;
-
-  border: 1px solid #c7c0ae;
+td {
+	padding: 0.25rem;
+	border: 1px solid #006991;
 }
