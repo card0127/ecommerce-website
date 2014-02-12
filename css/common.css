@@ -124,6 +124,10 @@ ul li{
 	list-style:none;
 }
 
+.margin{
+	margin-bottom: -2rem;	
+	
+}
 .social li a,
 .social li a:link,
 .social li a:visited{
