@@ -163,14 +163,14 @@ a:link {
 }
 
 a:visited {
-  color: #fff;
+  color: #E8B254;
   border-bottom-color: rgba(0,105,145,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #E8B254;
+  color: #537FA7;
   border-bottom-color: #666;
 }
 

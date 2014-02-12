@@ -18,7 +18,7 @@
 	<div class="grid">
 	
 		<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
-			<img class="img-flex" src="../images/logo.png" alt="Pedro Santos Graphic Solutions">
+			<img class="logo" src="../images/logo.png" alt="Pedro Santos Graphic Solutions">
 		</div>
 		
 		<div class="giga unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
@@ -30,13 +30,8 @@
 		</div>
 		
 		<div class="unit gutter unit-s-1 unit-m-1-3 unit-l-1-3">
-			<form action="http://google.com/cse">
-
-				<h2 class="giga">Search:</h2>
-		
-				<input type="text" class="input">
-				<input type="submit" value="Search" class="input btn">
-		
+			<form method="get" action="/search" id="search">
+				<input name="q" type="text" size="40" placeholder="Search..." />
 			</form>
 		</div>
 		

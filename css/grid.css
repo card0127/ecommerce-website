@@ -1,5 +1,7 @@
 .grid{
 	overflow:hidden;
+	padding: 2% 0.5rem;
+	border-radius: 10px;
 }
 
 .unit{
