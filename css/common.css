@@ -1,3 +1,14 @@
+/*
+	Colour Palette
+	- Green 1: #529C73 - rgb(82,156,115)
+	- Green 2: #3C7D4C - rgb(60,125,76)
+	- Blue 1: #537FA7 - rgb(83,127,167)
+	- Blue 2: #006991 - rgb(0,105,145)
+	- Blue 3: #314A67 - rgb(49,74,103)
+	- Blue 4: #003239 - rgb(0,50,57)
+	- Light Brown: #F5F5F1 - rgb(245,245,241)
+ */
+ 
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -15,10 +26,14 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	background-color: #F5F5F1;
 }
 
 .grid{
 	font: normal 100%/2 'Lato',sans-serif;
+	background-color: #fff;
+	padding: 2% 0.5rem;
+	border-radius: 10px;
 }
 
 .product-info img{
@@ -56,9 +71,6 @@ footer p{
 
 ul li{
 	display:block;
-}
-
-ul li{
 	list-style:none;
 }
 
@@ -73,15 +85,15 @@ ul li{
 	text-align:center;
 	padding-top: 0.6125rem;
 	color:3E618C;
-
+	
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
-
+	
 	color: #fff;	
-
+	
 	-webkit-box-shadow: inset 0px 0px 0px 40px #3E618C;
 	-moz-box-shadow: inset 0px 0px 0px 40px #3E618C;
 	-ms-box-shadow: inset 0px 0px 0px 40px #3E618C;
