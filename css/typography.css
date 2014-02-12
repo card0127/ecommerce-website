@@ -1,10 +1,10 @@
 /*
 	Colour Palette
-	- Green 1: #00CC63 - rgb(0,204,99)
-	- Green 2: #009967 - rgb(0,153,103)
-	- Green 3: #00FFDB - rgb(0,255,219)
-	- Blue 1: #00F9FF - rgb(0,249,255)
-	- Blue 2: #00ACCC - rgb(0,172,204)
+	- Green 1: #45FFCA - rgb(69,255,202)
+	- Green 2: #45E8B9 - rgb(69,232,185)
+	- Green 3: #537F75 - rgb(83,127,117)
+	- Green 4: #005C7F - rgb(0,92,127)
+	- Blue 1: #58FBFF - rgb(88,251,255)
  */
 
 html {
@@ -138,7 +138,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #3E618C;
+  color: #005C7F;
   font-family: 'Source Sans Pro',sans-serif;
 }
 
@@ -147,28 +147,28 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color {
-  color: #3E618C;
+  color: #537F75;
 }
 
 a,
 a:link {
-  border-bottom: 0.1em solid rgba(121,50,132,0.5);
+  border-bottom: 0.1em solid rgba(83,127,117,0.5);
   transition: all 150ms linear;
 
-  color: #FF9A00;
+  color: #537F75;
   text-decoration: none;
 }
 
 a:visited {
-  color: #313131;
-  border-bottom-color: rgba(104,68,110,0.5);
+  color: #4CFF93;
+  border-bottom-color: rgba(69,232,185,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #A91C35;
-  border-bottom-color: #A91C35;
+  color: #45E8B9;
+  border-bottom-color: #45E8B9;
 }
 
 sup,
