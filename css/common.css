@@ -68,10 +68,9 @@ form{
 .search { 
 	padding:6px 15px 6px 30px;
 	margin:3px; 
-	background: url('./images/search.png') no-repeat 8px 6px; 
 }
 
-input[type=text]{
+.input[type=text]{
 	color:#bcbcbc;
 }
 
