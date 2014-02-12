@@ -14,13 +14,14 @@ html {
   font: normal 100%/1.5 'Lato', sans-serif;
 }
 
+ /*Margin for all types of type.*/
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
-
+ /* Text size formating */
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
@@ -71,6 +72,7 @@ small, .milli {
   line-height: 1.8984;
 }
 
+ /* Extra categories*/
 .push {
   margin-bottom: 1.5rem;
 }
@@ -139,6 +141,7 @@ small, .milli {
   padding-right: 3.0000rem;
 }
 
+ /*  Colour and Font Family*/
 h1, h2, h3, h4, h5, h6,
 .brand {
 	color: #006991;
@@ -153,6 +156,7 @@ h1, h2, h3, h4, h5, h6,
   color: #314A67;
 }
 
+ /* Styling for links */
 a,
 a:link {
   border-bottom: 0.1em solid rgba(0,105,145,0.5);
@@ -209,6 +213,7 @@ mark {
   background-color: #529C73;
 }
 
+ /* Styling for the dividers */
 hr {
 	border: 0;
 	width: 50%;
@@ -220,6 +225,7 @@ hr {
 	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,50,57,0.75,0.25), rgba(0,0,0,0));
 }
 
+ /* Styling for list items */
 dt {
   font-weight: bold;
 }

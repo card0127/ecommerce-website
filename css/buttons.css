@@ -9,6 +9,8 @@
 	- Yellow: #E8B254 - rgb(232,178,84)
  */
  
+/* Formating for the different states of the buttons */
+  
 .btn,
 .btn:link,
 .btn:visited
@@ -27,6 +29,8 @@
 	margin-bottom: 0.5em;
 }
 
+/* Formating for when hover a button */
+
 .btn:hover{
 	background-color: #529C73; background-image: -webkit-gradient(linear, left top, left bottom, from(#3C7D4C), to(#529C73));
 	background-image: -webkit-linear-gradient(top, #3C7D4C, #529C73);
@@ -35,6 +39,8 @@
 	background-image: -o-linear-gradient(top, #3C7D4C, #529C73);
 	background-image: linear-gradient(to bottom, #3C7D4C, #529C73);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3C7D4C, endColorstr=#529C73);
 }
+
+/* Formating for when visiting a link */
 
 .btn-alt,
 .btn-alt:link,
@@ -50,6 +56,8 @@
 	background-image: -o-linear-gradient(top, #006991, #314A67);
 	background-image: linear-gradient(to bottom, #006991, #314A67);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#006991, endColorstr=#314A67);
 }
+
+/* Formating for when hovering a button */
 
 .btn-alt:hover{
 	background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#314A67), to(#006991));
