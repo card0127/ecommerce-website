@@ -141,12 +141,12 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-  color: #006991;
-  font-family: 'Source Sans Pro',sans-serif;
+	color: #006991;
+	font-family: 'Lily Script One', cursive;
 }
 
 .brand-family {
-  font-family: 'Source Sans Pro',sans-serif;
+	font-family: 'Lily Script One', cursive;
 }
 
 .brand-color {
