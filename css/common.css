@@ -6,8 +6,9 @@
 	- Blue 2: #006991 - rgb(0,105,145)
 	- Blue 3: #314A67 - rgb(49,74,103)
 	- Blue 4: #003239 - rgb(0,50,57)
+	- Yellow: #E8B254 - rgb(232,178,84)
 	- Light Brown: #F5F5F1 - rgb(245,245,241)
- */
+*/
  
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
@@ -94,22 +95,22 @@ ul li{
 	
 	color: #fff;	
 	
-	-webkit-box-shadow: inset 0px 0px 0px 40px #3E618C;
-	-moz-box-shadow: inset 0px 0px 0px 40px #3E618C;
-	-ms-box-shadow: inset 0px 0px 0px 40px #3E618C;
-	-o-box-shadow: inset 0px 0px 0px 40px #3E618C;
-	box-shadow: inset 0px 0px 0px 40px #3E618C;
+	-webkit-box-shadow: inset 0px 0px 0px 40px #006991;
+	-moz-box-shadow: inset 0px 0px 0px 40px #006991;
+	-ms-box-shadow: inset 0px 0px 0px 40px #006991;
+	-o-box-shadow: inset 0px 0px 0px 40px #006991;
+	box-shadow: inset 0px 0px 0px 40px #006991;
 }
 
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
-	-webkit-box-shadow: inset 0px 0px 0px 3px #FF9A00;
-	-moz-box-shadow: inset 0px 0px 0px 3px #FF9A00;
-	-ms-box-shadow: inset 0px 0px 0px 3px #FF9A00;
-	-o-box-shadow: inset 0px 0px 0px 3px #FF9A00;
-	box-shadow: inset 0px 0px 0px 3px #FF9A00;
-	color: #FF9A00;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #E8B254;
+	-moz-box-shadow: inset 0px 0px 0px 3px #E8B254;
+	-ms-box-shadow: inset 0px 0px 0px 3px #E8B254;
+	-o-box-shadow: inset 0px 0px 0px 3px #E8B254;
+	box-shadow: inset 0px 0px 0px 3px #E8B254;
+	color: #E8B254;
 }
 
 .hide-text {
