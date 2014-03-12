@@ -35,7 +35,8 @@
 }
 
 .current {
-	background-color: f5c700;
+	background-color: #f5c700;
+	padding: 5%;
 }
 
 .banner {
