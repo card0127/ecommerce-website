@@ -47,14 +47,7 @@
 	box-shadow: inset 0px 6px 8px -3px rgba(0,0,0,0.50);
 }
 
-.bannertwo {
-	background: #6e9d1b url("../images/bannertwo.jpg") no-repeat center center;
-	background-size: cover;
-	padding: 5em 1em 1em;
-	text-align:center;
-	box-shadow: inset 0px 6px 8px -3px rgba(0,0,0,0.50);
-}
-.banner, .bannertwo h2 {
+.banner h2 {
 	color: #fff;
 	font-weight: 300;
 }
