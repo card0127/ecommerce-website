@@ -41,7 +41,7 @@
 
 .banner {
 	background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
-	background-size: cover;
+	background-size: 100%;
 	padding: 5em 1em 1em;
 	text-align:center;
 }
