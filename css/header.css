@@ -1,6 +1,5 @@
 .masthead {
   background-color: #0eba9e;
-  box-shadow: inset 0px 6px 8px -3px rgba(0,0,0,0.75);
 }
 
 .logo {
@@ -45,6 +44,7 @@
 	background-size: cover;
 	padding: 5em 1em 1em;
 	text-align:center;
+	box-shadow: inset 0px 6px 8px -3px rgba(0,0,0,0.75);
 }
 
 .banner h2 {
