@@ -15,4 +15,4 @@ Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 - s to xxl sizes available
 - long or short sleeve
 
-![Tshirt UNO](products/tshirtpromo1.jpg)
+![Tshirt UNO](http://card0127.github.io/ecommerce-website/images/products/tshirtpromo1.jpg)
