@@ -3,9 +3,16 @@ layout: default
 title: Products
 ---
 
+<nav>
+	<ul>
+		<li><a class="{% if page.url contains 'index' %}current{% endif %}"href="{{site.baseurl}}/products">All</a></li>
+		<li><a class="{% if page.url contains 'tshirts' %}current{% endif %}"href="{{site.baseurl}}/products/tshirts">Tshirts</a></li>
+	</ul>
+</nav>
+
 <div class="grid">
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
-		<h1>Tshirts and Gloves!</h1>
+		<h1>Gloves!</h1>
 	</div>
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
 		<p>The best products for gardeners</p>
@@ -14,10 +21,10 @@ title: Products
 
 <ul>
 	{% for product in site.pages %}
-		{% if product.category == 'tshirts' %}
+		{% if product.category == 'gloves' %}
 			<li>
 				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
+					<img src="{{site.baseurl}}/images/{{product.image}}" alt="Gloves">
 					{{product.name}}
 			</li>
 		{% endif %}
