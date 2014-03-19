@@ -3,6 +3,14 @@ layout: default
 title: Products
 ---
 
+<nav>
+	<ul>
+		<li><a class="{% if page.url contains 'tshirts' %}current{% endif %}"href="{{site.baseurl}}/products/tshirts">Tshirts</a></li>
+		<li><a class="{% if page.url contains 'gloves' %}current{% endif %}"href="{{site.baseurl}}/products/gloves">Gloves</a></li>
+	</ul>
+</nav>
+
+
 <div class="grid">
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
 		<h1>Tshirts and Gloves!</h1>
