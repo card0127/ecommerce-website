@@ -23,15 +23,3 @@ title: Products
 		{% endif %}
 	{% endfor %}
 <ul>
-
-<ul>
-	{% for product in site.pages %}
-		{% if product.category == 'gloves' %}
-			<li>
-				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="">
-					{{product.name}}
-			</li>
-		{% endif %}
-	{% endfor %}
-<ul>

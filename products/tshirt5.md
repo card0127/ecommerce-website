@@ -15,4 +15,4 @@ Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 - s to xxl sizes available
 - long or short sleeve
 
-![Tshirt CINCUE](http://card0127.github.io/ecommerce-website/images/products/tshirtpromo5.jpg)
+![Tshirt Five](http://card0127.github.io/ecommerce-website/images/products/tshirtpromo5.jpg)
