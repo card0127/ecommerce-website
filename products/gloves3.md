@@ -15,4 +15,4 @@ Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 - s to xxl sizes available
 - long or short sleeve
 
-![G![Gloves Three](http://card0127.github.io/ecommerce-website/images/products/gloves3.jpg)
+![Gloves Three](http://card0127.github.io/ecommerce-website/images/products/gloves3.jpg)
