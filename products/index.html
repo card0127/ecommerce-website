@@ -5,8 +5,8 @@ title: Products
 
 <nav>
 	<ul>
-		<li><a class="{% if page.url contains 'tshirts' %}current{% endif %}"href="{{site.baseurl}}/products/tshirts">Tshirts</a></li>
-		<li><a class="{% if page.url contains 'gloves' %}current{% endif %}"href="{{site.baseurl}}/products/gloves">Gloves</a></li>
+		<li><a class="{% if page.url contains 'tshirts' %}current{% endif %}" href="{{site.baseurl}}/products/tshirts">Tshirts</a></li>
+		<li><a class="{% if page.url contains 'gloves' %}current{% endif %}" href="{{site.baseurl}}/products/gloves">Gloves</a></li>
 	</ul>
 </nav>
 
@@ -30,7 +30,7 @@ title: Products
 			</li>
 		{% endif %}
 	{% endfor %}
-<ul>
+</ul>
 
 <ul>
 	{% for product in site.pages %}
@@ -42,4 +42,4 @@ title: Products
 			</li>
 		{% endif %}
 	{% endfor %}
-<ul>
+</ul>
