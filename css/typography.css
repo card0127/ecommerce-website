@@ -161,19 +161,19 @@ a:link {
   border-bottom: 0.1em solid rgba(121,50,132,0.5);
   transition: all 150ms linear;
 
-  color: #793284;
+  color: #e6e6e6;
   text-decoration: none;
 }
 
 a:visited {
-  color: #68446e;
+  color: #e6e6e6;
   border-bottom-color: rgba(104,68,110,0.5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #b42885;
+  color: #F1CA2E;
   border-bottom-color: #b42885;
 }
 
