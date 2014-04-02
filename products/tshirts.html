@@ -10,23 +10,24 @@ title: Products
 	</ul>
 </nav>
 
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1 unit-l-1">
-		<h1>Tshirts!</h1>
+<main role="main">
+	<div class="grid">
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
+			<h1>Tshirts!</h1>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
+			<p>The best products for gardeners</p>
+		</div>
 	</div>
-	<div class="unit unit-s-1 unit-m-1 unit-l-1">
-		<p>The best products for gardeners</p>
-	</div>
-</div>
-
-<ul>
-	{% for product in site.pages %}
-		{% if product.category == 'tshirts' %}
-			<li>
-				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="tshirts">
-					{{product.name}}
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+	
+	<ul>
+		{% for product in site.pages %}
+			{% if product.category == 'tshirts' %}
+				<li>
+					<a href="{{site.baseurl}}{{product.url}}">
+						<img src="{{site.baseurl}}/images/{{product.image}}" alt="tshirts">
+						{{product.name}}
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>

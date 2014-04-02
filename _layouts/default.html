@@ -30,12 +30,12 @@
 
 <body>
 
-<header class="masthead island push-0">
+<header class="masthead island push-0" role="banner">
   <div class="grid grid-bottom">
     <div class="unit unit-s-1 unit-m-1 unit-l-1-2">
       <h1 class="push-0"><img class="img-flex logo" src="{{site.baseurl}}/images/logo.png" alt="Azorean"></h1>
     </div>
-    <nav class="unit unit-s-1 unit-m-1 unit-l-1-2">
+    <nav class="unit unit-s-1 unit-m-1 unit-l-1-2" role="navigation">
       <ul class="list-group mega white brand-family push-0 nav">
         <li class="list-group-item list-group-item-inline">
           <a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/">HOME</a>
@@ -61,10 +61,10 @@
 
 <footer class="footer pad-t">
   <div class="grid">
-    <div class="unit unit-s-1 unit-m-1 unit-l-1-3 gutter-1-2">
+    <div class="unit unit-s-1 unit-m-1 unit-l-1-3 gutter-1-2" role="contentinfo">
       <p class="footer-copyright"><small>© 2014 Azorean Clothing and Accessories</small></p>
     </div>
-	<div class="search unit unit-s-1 unit-m-1 unit-l-1-3">	
+	<div class="search unit unit-s-1 unit-m-1 unit-l-1-3" role="search">	
 		<form method="get" action="{{site.baseurl}}/search">
 			Search:<input type="search" name="search">
 		</form>
