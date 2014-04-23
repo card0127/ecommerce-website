@@ -8,6 +8,9 @@ Location: Ottawa, Canada
 /* THANKS */							
 To all the awesome people who helped me.
 
+/* IMAGES */
+Source of images: Flickr with Creative Commons-licensed content.
+
                             
 /* SITE */                         
 Last update: 2014/04/23                           
