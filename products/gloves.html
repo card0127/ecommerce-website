@@ -28,7 +28,10 @@ title: Products
 							<div class="productname tera">
 								{{product.name}}
 							</div>
-							<img src="{{site.baseurl}}/images/{{product.image}}" alt="Gloves">
+							<img class="unit-s-1 unit-m-2-3 unit-l-1-2 imgborder" src="{{site.baseurl}}/images/{{product.image}}" alt="Gloves">
+							<div class="unit-s-1 unit-m-1 unit-l-1">
+								<a class="btn small productname" href="{{site.baseurl}}/cart">BUY NOW!</a>
+							</div>
 					</li>
 				{% endif %}
 			{% endfor %}

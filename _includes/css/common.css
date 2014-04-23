@@ -69,6 +69,12 @@ body {
 	text-transform:uppercase;
 }
 
+.imgborder{
+	border-style:solid;
+	border-width:15px;
+	color:#FAFAFA;
+	box-shadow: 0px 0px 5px #888888;
+}
 
 @media only screen and (min-width: 75em) {
 	.marginhtml{
