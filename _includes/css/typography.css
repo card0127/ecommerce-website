@@ -14,7 +14,7 @@ html {
   background-color: #fff;
 
   color: #444;
-  font: normal 100%/1.5 Lato,sans-serif;
+  font: normal 100%/1.5 Raleway,sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -144,12 +144,11 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand {
   color: #537FA7;
-  font-family: "Lato",sans-serif;
-  text-transform:uppercase;
+  font-family: 'Rock Salt', cursive;
 }
 
 .brand-family {
-  font-family: "Lato",sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 
 .brand-color {

@@ -63,10 +63,12 @@ body {
 .productmargin{
 	margin:5%;
 }
+.promomargin{
+	margin-top:1rem;
+}
 
 .productname{
 	margin:5%;
-	text-transform:uppercase;
 }
 
 .imgborder{
