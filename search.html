@@ -8,9 +8,13 @@ title: Search
 		{% if product.category == 'tshirts' %}
 			<li>
 				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="tshirts">
-					{{product.name}}
-					<a class="btn small" href="{{site.baseurl}}/cart">BUY NOW!</a>
+					<div class="productname mega">
+						<h3>{{product.name}}</h3>
+					</div>
+					"<img class="unit-s-1 unit-m-2-3 unit-l-1-2 imgborder" src="{{site.baseurl}}/images/{{product.image}}" alt="tshirts">
+					<div class="unit-s-1 unit-m-1 unit-l-1">
+						<a class="btn small productname" href="{{site.baseurl}}/cart">BUY NOW!</a>
+					</div>
 			</li>
 		{% endif %}
 	{% endfor %}
@@ -21,9 +25,13 @@ title: Search
 		{% if product.category == 'gloves' %}
 			<li>
 				<a href="{{site.baseurl}}{{product.url}}">
-					<img src="{{site.baseurl}}/images/{{product.image}}" alt="gloves">
-					{{product.name}}
-					<a class="btn small" href="{{site.baseurl}}/cart">BUY NOW!</a>
+					<div class="productname mega">
+						<h3>{{product.name}}</h3>
+					</div>
+					<img class="unit-s-1 unit-m-2-3 unit-l-1-2 imgborder" src="{{site.baseurl}}/images/{{product.image}}" alt="gloves">
+					<div class="unit-s-1 unit-m-1 unit-l-1">
+						<a class="btn small productname" href="{{site.baseurl}}/cart">BUY NOW!</a>
+					</div>
 			</li>
 		{% endif %}
 	{% endfor %}
