@@ -1,11 +1,11 @@
 ---
 layout: products
 category: tshirts
-name: tshirt two
+name: Circle Master
 image: products/tshirtpromo2.jpg
 ---
 
-*This flowers* tshirt is an **amazing** and soft product that will be your preference of choice number one every day!
+*This Circle Master* tshirt is an **amazing** and soft product that will be your preference of choice number one every day!
 
 Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 

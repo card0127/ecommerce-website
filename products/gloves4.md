@@ -1,11 +1,11 @@
 ---
 layout: products
 category: gloves
-name: gloves four
+name: Green Lovers
 image: products/gloves4.jpg
 ---
 
-*This flowers* gloves is an **amazing** and soft product that will be your preference of choice number one every day!
+*This green* gloves is an **amazing** and soft product that will be your preference of choice number one every day!
 
 Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 

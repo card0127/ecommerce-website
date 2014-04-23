@@ -1,11 +1,11 @@
 ---
 layout: products
 category: tshirts
-name: tshirt four
+name: Organic Lovers
 image: products/tshirtpromo4.jpg
 ---
 
-*This flowers* tshirt is an **amazing** and soft product that will be your preference of choice number one every day!
+*This Organic Lovers* tshirt is an **amazing** and soft product that will be your preference of choice number one every day!
 
 Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 

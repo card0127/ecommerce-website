@@ -1,7 +1,7 @@
 ---
 layout: products
 category: gloves
-name: gloves one
+name: Flower Gloves
 image: products/gloves1.jpg
 ---
 

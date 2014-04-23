@@ -1,11 +1,11 @@
 ---
 layout: products
 category: gloves
-name: gloves five
+name: Rainbow Gloves
 image: products/gloves5.jpg
 ---
 
-*This flowers* gloves is an **amazing** and soft product that will be your preference of choice number one every day!
+*This rainbow* gloves is an **amazing** and soft product that will be your preference of choice number one every day!
 
 Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 

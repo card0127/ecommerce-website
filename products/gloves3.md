@@ -1,11 +1,11 @@
 ---
 layout: products
 category: gloves
-name: gloves three
+name: Elegant Yellow
 image: products/gloves3.jpg
 ---
 
-*This flowers* gloves is an **amazing** and soft product that will be your preference of choice number one every day!
+*This yellow* gloves is an **amazing** and soft product that will be your preference of choice number one every day!
 
 Materials used [100% cotton](http://en.wikipedia.org/wiki/Cotton).
 

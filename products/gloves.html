@@ -2,32 +2,36 @@
 layout: default
 title: Products
 ---
-
-<nav>
-	<ul>
-		<li><a class="{% if page.url contains 'index' %}current{% endif %}" href="{{site.baseurl}}/products">All</a></li>
-		<li><a class="{% if page.url contains 'tshirts' %}current{% endif %}" href="{{site.baseurl}}/products/tshirts">Tshirts</a></li>
-	</ul>
-</nav>
-
-<main role="main">
-	<div class="grid">
-		<div class="unit unit-s-1 unit-m-1 unit-l-1">
-			<h1>Gloves!</h1>
-		</div>
-		<div class="unit unit-s-1 unit-m-1 unit-l-1">
-			<p>The best products for gardeners</p>
-		</div>
-	</div>
+<div class="productmargin">
+	<nav>
+		<ul>
+			<li><a class="{% if page.url contains 'index' %}current{% endif %} tera productname" href="{{site.baseurl}}/products">All</a></li>
+			<li><a class="{% if page.url contains 'tshirts' %}current{% endif %} tera productname" href="{{site.baseurl}}/products/tshirts">Tshirts</a></li>
+		</ul>
+	</nav>
 	
-	<ul>
-		{% for product in site.pages %}
-			{% if product.category == 'gloves' %}
-				<li>
-					<a href="{{site.baseurl}}{{product.url}}">
-						<img src="{{site.baseurl}}/images/{{product.image}}" alt="Gloves">
-						{{product.name}}
-				</li>
-			{% endif %}
-		{% endfor %}
-	</ul>
+	<main role="main">
+		<div class="grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-1">
+				<h1>Gloves!</h1>
+			</div>
+			<div class="unit unit-s-1 unit-m-1 unit-l-1">
+				<p>The best products for gardeners</p>
+			</div>
+		</div>
+		
+		<ul>
+			{% for product in site.pages %}
+				{% if product.category == 'gloves' %}
+					<li>
+						<a href="{{site.baseurl}}{{product.url}}">
+							<div class="productname tera">
+								{{product.name}}
+							</div>
+							<img src="{{site.baseurl}}/images/{{product.image}}" alt="Gloves">
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</main>
+</div>

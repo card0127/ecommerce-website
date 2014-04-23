@@ -54,3 +54,25 @@ body {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+
+.thankyou{
+	padding-top:7rem;
+	padding-bottom:7rem;
+}
+
+.productmargin{
+	margin:5%;
+}
+
+.productname{
+	margin:5%;
+	text-transform:uppercase;
+}
+
+
+@media only screen and (min-width: 75em) {
+	.marginhtml{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
